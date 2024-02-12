@@ -8,15 +8,21 @@
 
 The honeypot lab is a controlled environment designed to simulate vulnerable systems, enticing malicious actors to interact with them, thereby gathering valuable intelligence on cyber threats and attack methodologies. Leveraging Azure infrastructure and PowerShell automation, this lab deploys and manages honeypot instances, while integrating IPGeolocation API for pinpointing the geographical origins of malicious activities. By providing insights into emerging cyber threats, this lab enhances cybersecurity defenses and fosters proactive threat mitigation strategies.
 
-<br />
-<br />
 
-<br />
-<br />
+<h2>First View of the Virtual Machine after logging in</h2>
 
 <p align="center">
-<img src="https://i.imgur.com/3d3CEwZ.png" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/>
+
+<img src="https://imgur.com/SzjEtqv.png" height="80%" width="80%" alt="Custom Log"/><br /><br />
 </p>
+
+<h2>Turning off all the firewalls to expose it with very low security</h2>
+
+<p align="center">
+
+<img src="https://imgur.com/QXmFkYt.png" height="80%" width="80%" alt="Custom Log"/><br /><br />
+</p>
+
 <h2>Language, Platforms and Tools Used</h2>
 
 - <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer
@@ -27,15 +33,23 @@ The honeypot lab is a controlled environment designed to simulate vulnerable sys
 <h2>Attacks from Germany coming in; Custom logs being output with geodata</h2>
 
 <p align="center">
-<img src="https://i.imgur.com/LhDCRz4.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://imgur.com/fwYAghN.png" height="80%" width="80%" alt="Custom Log"/><br /><br />
 </p>
 
-<h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
+<h2>World map of incoming attacks after Couple of minutes (built custom logs including geodata)</h2>
 
 <p align="center">
-<img src="" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+
+<img src="https://imgur.com/zlipuDa.png" height="80%" width="80%" alt="Custom Log"/><br /><br />
 </p>
-![60](https://github.com/Swoyam21/Sentinel_Lab-HoneyPot/assets/97996681/0e176621-fd52-470c-b301-ceb137c03b32)
+
+<h2>After couple of hours, this is the final result</h2>
+
+<p align="center">
+
+<img src="https://imgur.com/bdyXVVx.png" height="80%" width="80%" alt="Custom Log"/><br /><br />
+</p>
+
 
 
 
